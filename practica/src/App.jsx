@@ -5,6 +5,7 @@ import Card from './componentes/Card.jsx'
 import Contador from './componentes/Contador.jsx'
 import Lista from './componentes/Lista.jsx'
 import Formulario from './componentes/Formulario.jsx'
+import AgregarTareas from './componentes/AgregarTareas.jsx'
 import './App.css'
 //import { useState } from "react";
 
@@ -17,6 +18,7 @@ function App() {
     <Contador/>
     <Lista/>
     <Formulario/>
+    <AgregarTareas/>
     </>
   )
 }
