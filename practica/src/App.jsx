@@ -6,6 +6,7 @@ import Contador from './componentes/Contador.jsx'
 import Lista from './componentes/Lista.jsx'
 import Formulario from './componentes/Formulario.jsx'
 import AgregarTareas from './componentes/AgregarTareas.jsx'
+import MiniApp from './componentes/MiniApp.jsx'
 import './App.css'
 //import { useState } from "react";
 
@@ -19,6 +20,7 @@ function App() {
     <Lista/>
     <Formulario/>
     <AgregarTareas/>
+    <MiniApp/>
     </>
   )
 }
