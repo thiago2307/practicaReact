@@ -7,6 +7,7 @@ import Lista from './componentes/Lista.jsx'
 import Formulario from './componentes/Formulario.jsx'
 import AgregarTareas from './componentes/AgregarTareas.jsx'
 import MiniApp from './componentes/MiniApp.jsx'
+import UseEfect from './componentes/UseEfect.jsx' 
 import './App.css'
 //import { useState } from "react";
 
@@ -21,6 +22,7 @@ function App() {
     <Formulario/>
     <AgregarTareas/>
     <MiniApp/>
+    <UseEfect/>
     </>
   )
 }
